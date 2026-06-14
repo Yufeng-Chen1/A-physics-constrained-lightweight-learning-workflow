@@ -1,0 +1,33 @@
+﻿python : E:\ChenYuFeng\Anaconda\Lib\site-packages\torch\cuda\__init__.
+py:63: FutureWarning: The pynvml package is deprecated. Please install
+ nvidia-ml-py instead. If you did not install pynvml directly, please 
+report this to the maintainers of the package that installed pynvml fo
+r you.
+所在位置 行:1 字符: 68
++ ... | Out-Null; python .\main\run_final_optimized_training.py *>&1 |
+ Out- ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (E:\ChenYuFeng\A...pynvml 
+    for you.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+  import pynvml  # type: ignore[import]
+2025-09-28 20:40:37.641606: I tensorflow/core/util/port.cc:153] oneDNN
+ custom operations are on. You may see slightly different numerical re
+sults due to floating-point round-off errors from different computatio
+n orders. To turn them off, set the environment variable `TF_ENABLE_ON
+EDNN_OPTS=0`.
+2025-09-28 20:40:40.832991: I tensorflow/core/util/port.cc:153] oneDNN
+ custom operations are on. You may see slightly different numerical re
+sults due to floating-point round-off errors from different computatio
+n orders. To turn them off, set the environment variable `TF_ENABLE_ON
+EDNN_OPTS=0`.
+Traceback (most recent call last):
+  File "E:\ChenYuFeng\项目练手\pythonProject\main\run_final_optimized_trai
+ning.py", line 482, in <module>
+    main()
+  File "E:\ChenYuFeng\项目练手\pythonProject\main\run_final_optimized_trai
+ning.py", line 456, in main
+    print("\U0001f3af 最终优化储层流体识别训练程序")
+UnicodeEncodeError: 'gbk' codec can't encode character '\U0001f3af' in
+ position 0: illegal multibyte sequence
